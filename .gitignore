@@ -1,6 +1,8 @@
 # Carpetas de resultados
 1.land-cover/ndvi_pct_30m/
 1.land-cover/ndvi_pct_30m_moving_window
+1.land-cover/ndwi_pct_30m/
+1.land-cover/ndwi_pct_30m_moving_window
 
 # Archivos de Jupyter
 1.land-cover/LC09_L2SP_192029_20240809_20240810_02_T1_ST_B10.tif
