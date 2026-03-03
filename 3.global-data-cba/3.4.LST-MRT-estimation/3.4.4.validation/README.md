@@ -2,7 +2,6 @@
 
 In this section, ground data is used to validate results of MRT estimating in Córdoba, Argentina 
 
-This section describes the in-situ measurements used to validate the estimated Mean Radiant Temperature (MRT) in Córdoba, Argentina.
 
 #### Zone
 Due to the limited time for measuring temperature, some neighborhoods/zones were selected for the validation: 
