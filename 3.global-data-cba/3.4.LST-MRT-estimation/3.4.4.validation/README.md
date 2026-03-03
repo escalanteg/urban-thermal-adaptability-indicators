@@ -4,6 +4,14 @@ In this section, ground data is used to validate results of MRT estimating in CÃ
 
 This section describes the in-situ measurements used to validate the estimated Mean Radiant Temperature (MRT) in CÃ³rdoba, Argentina.
 
+#### Zone
+Due to the limited time for measuring temperature, some neighborhoods/zones were selected for the validation: 
+Residential zone: villa Belgrano, Villa Centenario
+open parkings: Donosaurio Mall Alto Verde and Kempes' parking
+Park: Parque del Kempes 
+
+![ground points](image.png)
+
 #### Measured and Derived Variables
 
 - **TA**: Air temperature.
