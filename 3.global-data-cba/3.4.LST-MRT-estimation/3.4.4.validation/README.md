@@ -54,7 +54,7 @@ To evaluate the effect of solar exposure on Globe Temperature (TG), both thermom
 - One instrument under direct solar radiation
 - The other instrument under shade
 
-A total of 38 TG measurements were recorded over a 30-minute period.
+This information was used to re-estimate MRT based on LST and shadows
 
 - `3.4.4.3.shadow-sun`
 
