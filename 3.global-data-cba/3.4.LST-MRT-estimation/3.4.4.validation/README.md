@@ -6,8 +6,11 @@ This section describes the in-situ measurements used to validate the estimated M
 
 #### Zone
 Due to the limited time for measuring temperature, some neighborhoods/zones were selected for the validation: 
+
 Residential zone: villa Belgrano, Villa Centenario
+
 open parkings: Donosaurio Mall Alto Verde and Kempes' parking
+
 Park: Parque del Kempes 
 
 ![ground points](image.png)
@@ -16,7 +19,8 @@ Park: Parque del Kempes
 
 - **TA**: Air temperature.
 - **TG**: Globe temperature. Influenced by air temperature, wind speed, and radiative fluxes.
-- **MRT**: Mean Radiant Temperature. Derived from TG using air temperature (TA), wind speed, and globe diameter.
+- **wind**: Wind speed in m/s.
+- **MRT**: Mean Radiant Temperature. Derived from TG using TA, wind speed, and globe diameter.
 
 ---
 
