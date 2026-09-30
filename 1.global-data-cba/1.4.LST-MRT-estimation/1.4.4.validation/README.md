@@ -41,8 +41,8 @@ Field measurements were carried out using two black globe thermometers and two a
 
 Since the instruments differ in brand and technical specifications, an intercomparison analysis was conducted before collecting validation data. Parallel measurements under identical environmental conditions were performed to quantify systematic differences.
 
- - in notebook `3.4.4.1.differences-t1-t2` the differences in Globe Temperature (TG) variable of the thermometers is analyzed
- - in notebook `3.4.4.2.wind-a1-a2` the difference in the wind speed variable of the anemometers is analyzed
+ - in notebook `1.4.4.1.differences-t1-t2` the differences in Globe Temperature (TG) variable of the thermometers is analyzed
+ - in notebook `1.4.4.2.wind-a1-a2` the difference in the wind speed variable of the anemometers is analyzed
 
 Based on these analyses, correction criteria were defined to ensure comparable measurements.
 
@@ -56,7 +56,7 @@ To evaluate the effect of solar exposure on Globe Temperature (TG), both thermom
 
 This information was used to re-estimate MRT based on LST and shadows
 
-- `3.4.4.3.shadow-sun`
+- `1.4.4.3.shadow-sun`
 
 ---
 
@@ -64,7 +64,7 @@ This information was used to re-estimate MRT based on LST and shadows
 
 The final validation of predicted MRT values for Córdoba is performed in:
 
-- `3.4.4.4.validation-2026`
+- `1.4.4.4.validation-2026`
 
 This notebook integrates corrected ground measurements and compares them against modeled MRT.
 
