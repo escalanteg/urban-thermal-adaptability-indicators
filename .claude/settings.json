@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(PYTHONIOENCODING=utf-8 python apply.py \"C:/Users/guada/Desktop/TESIS/urban-thermal-adaptability-index/4.comparative-analysis/4.2.bol-mrt.ipynb\" tr_4.2.bol-mrt.txt)"
+      "Bash(PYTHONIOENCODING=utf-8 python apply.py \"C:/Users/guada/Desktop/TESIS/urban-thermal-adaptability-index/4.comparative-analysis/4.2.bol-mrt.ipynb\" tr_4.2.bol-mrt.txt)",
+      "Bash(grep -rn --include=*.ipynb -E '\"\\\\s*\\(from [a-zA-Z_.]+ import \\\\\\(|import .*\\\\\\\\\\\\\\\\n\\)' .)"
     ]
   }
 }
