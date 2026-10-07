@@ -1,12 +1,7 @@
 # Urban Thermal Adaptability Indicators
 
-Code for the Master's thesis **"Estimation of urban thermal adaptability indicators with open global data: Córdoba and Bologna as case studies"** (*Estimación de indicadores de adaptabilidad térmica urbana con datos globales abiertos: Córdoba y Bolonia como casos de estudio*).
+Code for the Master's thesis **"Estimation of urban thermal adaptability indicators with open global data: Córdoba and Bologna as case studies"** 
 
-- **Author:** Guadalupe Sol Escalante
-- **Degree:** Master in Applications of Spatial Information (*Magíster en Aplicaciones de Información Espacial*)
-- **Institutions:** Instituto Mario (UNC-CONAE)
-- **Supervisor:** Dr. Marco Pistore (FBK, Trento, Italy)
-- **Co-supervisor:** Dr. Diego Pons (INTA, Córdoba, Argentina)
 
 ## General objective
 
@@ -60,21 +55,35 @@ flowchart LR
 
 ## Data folder
 
-The input and output data are not included in the repository. The notebooks read and write them in a `datos-notebooks/` folder placed next to the repository, which mirrors the same numbering:
+The input and output data are not included in the repository. The notebooks read and write them in a `datos-notebooks/` folder placed next to the repository, with the same numbered folders as the repository:
 
 ```
 TESIS/
-├── urban-thermal-adaptability-index/   (this repository)
+├── urban-thermal-adaptability-indicators/   (this repository)
 └── datos-notebooks/
     ├── 1.global-data-cba/
-    ├── 2.global-data-bologna/
+    │   ├── LST/
+    │   ├── vectors/
+    │   ├── land-cover/
+    │   ├── objects-height/
+    │   ├── topography/
+    │   ├── LST-prediction/
+    │   └── MRT-prediction/
+    ├── 2.global-data-bologna/  
+    │   ├── LST/
+    │   ├── vectors/
+    │   ├── land-cover/
+    │   ├── objects-height/
+    │   ├── topography/
+    │   ├── LST-prediction/
+    │   └── MRT-prediction/
     ├── 3.HR-data-bologna/
-    │   ├── 3.0.base-data/
-    │   ├── 3.1.land-cover/
-    │   ├── 3.2.objects-height/
-    │   ├── 3.3.topography/
-    │   ├── 3.4.LST-prediction/
-    │   └── 3.5.MRT-prediction/
+    │   ├── base-data/          (LST and vectors)
+    │   ├── land-cover/
+    │   ├── objects-height/
+    │   ├── topography/
+    │   ├── LST-prediction/
+    │   └── MRT-prediction/
     └── 4.comparative-analysis/
 ```
 
